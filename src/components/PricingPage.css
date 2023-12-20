@@ -1,0 +1,62 @@
+.offers {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gray-block {
+  flex: 0 0 calc(26% - 20px); 
+  margin: 10px;
+  padding: 50px;
+  border: 1px solid gray;
+  text-align: center;
+  background: lightgray;
+  border-radius: 4px;
+}
+.button-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.button-group button,
+.button-group a {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: gray;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 5px; 
+}
+
+.button-group a {
+  background-color: #84c0d3;
+}
+
+.offers h3 {
+  color: #404e4f;
+}
+
+
+.details div {
+  clear: both;
+  display: block; 
+  width: 100%; 
+  margin-top: 20px; 
+}
+
+a{
+  color: #007f8b;
+}
+
+p{
+  color: #404e4f;
+  font-size: 20px;
+}

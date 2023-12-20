@@ -1,0 +1,53 @@
+.registration-container {
+  max-width: 400px;
+  margin: 50px auto 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #e0e8f0; 
+}
+
+.registration-container h2 {
+  margin-bottom: 20px;
+  color: #717171; 
+}
+
+.registration-container form div {
+  margin-bottom: 15px;
+}
+
+.registration-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; 
+}
+
+.registration-container input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: #f5f5f5; 
+}
+
+.registration-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: #84c0d3; 
+  color: #fff; 
+  cursor: pointer;
+}
+
+.registration-container button:hover {
+  background-color: #4a90e2; 
+}
+
+.thanks-block {
+  margin-top: 7000px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #84c0d3;
+  font-weight: 200;
+  margin-top: 20px;
+}
